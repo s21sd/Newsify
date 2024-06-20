@@ -22,8 +22,8 @@ const Newscard = ({ newss }) => {
         <div>
             <Toaster />
             <div className="text-gray-600 body-font w-fit">
-                <div className="container px-5 py-24 mx-auto w-fit">
-                    <div className="p-4 md:w-[450px]">
+                <div className="container px-1 py-24 mx-auto w-fit">
+                    <div className="p-4 w-[450] sm:w-[430] md:w-[470px] lg:w-[400px]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={newss.urlToImage} alt="blog" />
                             <div className="p-6">
